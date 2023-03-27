@@ -1,0 +1,440 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+  --hightlightColor: #B96E6E;
+  --maxWidht: 1200px;
+  --header: 80px;
+  --fontPrincipal: 'Fredericka the Great', serif;
+}
+
+/* General */
+
+.container{
+  max-width: var(--maxWidht);
+  margin: auto;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.section{
+  width: 100%;
+}
+
+.disable{
+  display: none;
+}
+
+.flex{
+  display: flex;
+}
+
+.colunm{
+  flex-direction: column;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.around{
+  justify-content: space-around;
+}
+
+.evenly{
+  justify-content: space-evenly;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+/* Header */
+header{
+  background-image: linear-gradient(95deg, #281F1F, #000, #000, #000);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.header{
+  width: 95%;
+  max-width: 1140px;
+  height: var(--header);
+}
+
+.brand h1{
+  color: var(--hightlightColor);
+  font-family: var(--fontPrincipal);
+  font-size: 2rem;
+}
+
+.brand span{
+  padding: 0 .3rem;
+}
+
+.brand img{
+  width: 30px;
+}
+
+.header li{
+  color: #e4e4e4;
+  border-top: 2px solid #bd9a9a00;
+  border-bottom: 2px solid #bd9a9a00;
+  padding: .2rem 0;
+  margin: 0  1rem;
+  font-size: 1.3rem;
+}
+
+.header .nav-item:hover{
+  border-bottom: 2px solid #e4e4e4;
+  transition: .3s;
+}
+
+.header .socials a{
+  padding: 0 .3rem;
+}
+
+.header .socials img{
+  width: 25px;
+}
+
+/* Showcase */
+.showcase{ 
+  background-image: linear-gradient(45deg, #5f4a4a, #000000, black);
+  padding-top: var(--header);
+}
+
+.showcase section{
+  min-height: calc(100vh);
+}
+
+.showcase .text{
+  color: #e4e4e4;
+  width: 330px;
+}
+
+.showcase h1{
+  color: var(--hightlightColor);
+  font-size: 2.5rem;
+}
+
+.showcase p{
+  color: #e4e4e4;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.showcase button{
+  background-color: var(--hightlightColor);
+  color: #e4e4e4;
+  border: transparent;
+  width: 90%;
+  font-size: 1.5rem;
+  padding: .5rem 0;
+  border-radius: 25px;
+  margin-top: 1rem;
+}
+
+.showcase img{
+  width: 485px;
+}
+
+/* About us */
+
+.about .text{
+  width: 70%;
+  max-width: 413px;
+}
+
+.about h1{
+  font-size: 2rem;
+  color: #5f4a4a;
+}
+
+.about p{
+  padding: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.about button{
+  background-color: #5f4a4a;
+  color: #e4e4e4;
+  line-height: 1.2rem;
+  border: transparent;
+  border-radius: 3px;
+  margin: .2rem 1px;
+  padding: 0 3px;
+}
+
+.about .text span{
+  padding: 0 .5rem;
+}
+
+/* Adopt */
+.adopt{
+  background-color: #e4e4e4;
+}
+
+.adopt h1{
+  font-size: 2rem;
+  color: #5f4a4a;
+  text-align: center;
+  margin: 2rem;
+}
+
+.adopt .slides{
+  width: 95%;
+}
+
+.adopt .slide{
+  padding: 1rem 2rem;
+  overflow: scroll;
+}
+
+.adopt .card{
+  width: 100%;
+  min-width: 160px;
+  max-width: 282px;
+  max-height: 300px;
+  margin: 0 .5rem;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 2px #B96E6E;
+  border-radius: 5px;
+}
+
+.adopt .card img{
+  width: 80%;
+  margin: auto;
+  max-width: 250px;
+}
+
+.card-select{
+  background-color: #fff;
+}
+
+.button-select{
+  background-color: #5f4a4a !important;
+  color: #fff;
+}
+
+.adopt h2{
+  color: #5f4a4a;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.adopt button{
+  width: 60%;
+  margin: auto;
+  padding: .5rem;
+  background-color: transparent;
+  border: 1px solid #5f4a4a;
+  border-radius: 1rem;
+}
+
+.adopt .last{
+  width: 40% !important;
+  margin: 2rem;
+}
+
+/* Donation */
+.donation h1{
+  font-size: 2rem;
+  color: #5f4a4a;
+  text-align: center;
+  margin: 2rem;
+}
+
+.donation .cards{
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.donation .card{
+  width: 120px;
+  display: flex;
+  margin: .5rem 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donation img{
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.donation h2{
+  color: var(--hightlightColor);
+  margin: .5rem 0 2rem 0;
+  text-align: center;
+}
+
+.don2{
+  background-color: #e4e4e4;
+}
+
+.donation .first{
+  width: 440px;
+}
+
+.donation .pix-text{
+  width: 50%;
+}
+
+.pix img{
+  height: 3rem;
+  margin: 0 .5rem;
+}
+
+.pix button{
+  background-color: #B96E6E;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+.pix-text p{
+  text-align: justify;
+  font-size: .75rem;
+  width: 60%;
+  margin: .5rem auto;
+}
+
+footer{
+  background-image: linear-gradient(135deg, #5f4a4a, #000000, black);
+  color: #ececec;
+  position: relative;
+}
+
+.contact .div{
+  width: 300px;
+}
+
+footer h1{
+  font-size: 1.8rem;
+  color: var(--hightlightColor);
+  width: 70%;
+}
+
+footer img{
+  margin: .5rem;
+}
+
+footer p, footer address{
+  font-size: 1.1rem;
+  padding: .5rem;
+}
+
+footer .visit{
+  width: 350px;
+  transform: translateY(35px);
+  z-index: 2;
+}
+
+footer .author{
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #b9b9b9;
+  z-index: 1;
+}
+
+.author span{
+  margin: 0 .4rem;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media screen and (width>=768px){
+  .btn-menu{
+    display: none;
+  }
+
+  .donation .cards{
+    width: 60%;
+  }
+}
+
+@media screen and (width<768px){
+  html, body{
+    text-align: center;
+    margin: auto;
+  }
+
+
+  .nav-list{
+    display: none;
+  }
+
+  h1, div:not(.brand){
+    margin: auto;
+  }
+
+  footer > section > div{
+    margin-bottom: 1rem !important;
+  }
+
+}
+
+@media screen and (width<468px){
+  .showcase button{
+    width: 65%;
+  }
+
+  .showcase img{
+    width: 90%;
+  }
+
+  .don2 section{
+    width: 100%;
+  }
+
+  .don2 .pix-text{
+    width: 100%;
+  }
+
+  .don2 p{
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media screen and (width<410px){
+  .showcase img{
+    width: 120%;
+  }
+  .pix button{
+    font-size: 1rem;
+  }
+
+  .adopt .slide{
+    padding: 1rem 0;
+  }
+}
