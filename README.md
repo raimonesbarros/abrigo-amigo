@@ -1,2 +1,2 @@
 # abrigo-amigo
- Site de abrigo de anomais para adoção
+ Site de abrigo de animais para adoção
