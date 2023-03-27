@@ -167,6 +167,7 @@ header{
 
 .showcase img{
   width: 485px;
+  opacity: .5;
 }
 
 /* About us */
@@ -226,9 +227,9 @@ header{
   width: 100%;
   min-width: 160px;
   max-width: 282px;
-  max-height: 300px;
+  max-height: 330px;
   margin: 0 .5rem;
-  padding: .5rem;
+  padding: .2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -259,7 +260,7 @@ header{
 
 .adopt button{
   width: 60%;
-  margin: auto;
+  margin: .5rem auto;
   padding: .5rem;
   background-color: transparent;
   border: 1px solid #5f4a4a;
