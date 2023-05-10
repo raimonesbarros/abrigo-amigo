@@ -1,5 +1,5 @@
 # abrigo-amigo
- Template de site de abrigo de animais
+Template de site de abrigo de animais desenvolvido para fins de pŕatica de conteúdo.
 
 ----
 
