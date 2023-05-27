@@ -1,10 +1,10 @@
-# abrigo-amigo
-Template de site de abrigo de animais desenvolvido para fins de pŕatica de conteúdo.
+# abrigo-amigo :challenge
+Template de site de abrigo de animais desenvolvido para fins de prática de conteúdo
 
 ----
 
 <div align="center">
- 
+
 ## 💻 Tecnologias abordadas
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -14,5 +14,8 @@ Template de site de abrigo de animais desenvolvido para fins de pŕatica de cont
 👉 [Ir para página](https://raimonesbarros.github.io/abrigo-amigo/) 👈
 
 ----
+
+## Legenda
+:challenge - Projeto realizado a partir de um modelo
 
 </div>
